@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1403F7361C61F4F5006E3D4F /* MisPiscinasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1403F7351C61F4F5006E3D4F /* MisPiscinasVC.m */; };
 		143EE2561C5FE65D00862A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE2551C5FE65D00862A33 /* main.m */; };
 		143EE2591C5FE65D00862A33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE2581C5FE65D00862A33 /* AppDelegate.m */; };
 		143EE25C1C5FE65D00862A33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE25B1C5FE65D00862A33 /* ViewController.m */; };
@@ -16,6 +17,13 @@
 		143EE2671C5FE65D00862A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143EE2651C5FE65D00862A33 /* LaunchScreen.storyboard */; };
 		143EE2721C5FE65E00862A33 /* SpinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE2711C5FE65E00862A33 /* SpinTests.m */; };
 		143EE27D1C5FE65E00862A33 /* SpinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE27C1C5FE65E00862A33 /* SpinUITests.m */; };
+		143EE28C1C5FE9B500862A33 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE28B1C5FE9B500862A33 /* SWRevealViewController.m */; };
+		143EE2921C5FEF2A00862A33 /* MisPiscinasTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE2911C5FEF2A00862A33 /* MisPiscinasTVC.m */; };
+		143EE2951C5FF04C00862A33 /* MenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE2941C5FF04C00862A33 /* MenuTVC.m */; };
+		143EE2981C5FF63B00862A33 /* ConceptosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE2971C5FF63B00862A33 /* ConceptosTVC.m */; };
+		143EE29B1C5FF65900862A33 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE29A1C5FF65900862A33 /* DetailView.m */; };
+		143EE2A01C5FFFE300862A33 /* AnalisisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE29F1C5FFFE300862A33 /* AnalisisViewController.m */; };
+		143EE2A31C6000C900862A33 /* DondeComprarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EE2A21C6000C900862A33 /* DondeComprarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1403F7341C61F4F5006E3D4F /* MisPiscinasVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisPiscinasVC.h; sourceTree = "<group>"; };
+		1403F7351C61F4F5006E3D4F /* MisPiscinasVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisPiscinasVC.m; sourceTree = "<group>"; };
 		143EE2511C5FE65D00862A33 /* Spin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143EE2551C5FE65D00862A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		143EE2571C5FE65D00862A33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +63,20 @@
 		143EE2781C5FE65E00862A33 /* SpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143EE27C1C5FE65E00862A33 /* SpinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinUITests.m; sourceTree = "<group>"; };
 		143EE27E1C5FE65E00862A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143EE28A1C5FE9B500862A33 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		143EE28B1C5FE9B500862A33 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		143EE2901C5FEF2A00862A33 /* MisPiscinasTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisPiscinasTVC.h; sourceTree = "<group>"; };
+		143EE2911C5FEF2A00862A33 /* MisPiscinasTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisPiscinasTVC.m; sourceTree = "<group>"; };
+		143EE2931C5FF04C00862A33 /* MenuTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTVC.h; sourceTree = "<group>"; };
+		143EE2941C5FF04C00862A33 /* MenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTVC.m; sourceTree = "<group>"; };
+		143EE2961C5FF63B00862A33 /* ConceptosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConceptosTVC.h; sourceTree = "<group>"; };
+		143EE2971C5FF63B00862A33 /* ConceptosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConceptosTVC.m; sourceTree = "<group>"; };
+		143EE2991C5FF65900862A33 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		143EE29A1C5FF65900862A33 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		143EE29E1C5FFFE300862A33 /* AnalisisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalisisViewController.h; sourceTree = "<group>"; };
+		143EE29F1C5FFFE300862A33 /* AnalisisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalisisViewController.m; sourceTree = "<group>"; };
+		143EE2A11C6000C900862A33 /* DondeComprarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DondeComprarViewController.h; sourceTree = "<group>"; };
+		143EE2A21C6000C900862A33 /* DondeComprarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DondeComprarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +127,16 @@
 		143EE2531C5FE65D00862A33 /* Spin */ = {
 			isa = PBXGroup;
 			children = (
+				143EE29D1C5FF66900862A33 /* Menu Lateral */,
 				143EE2571C5FE65D00862A33 /* AppDelegate.h */,
 				143EE2581C5FE65D00862A33 /* AppDelegate.m */,
 				143EE25A1C5FE65D00862A33 /* ViewController.h */,
 				143EE25B1C5FE65D00862A33 /* ViewController.m */,
 				143EE25D1C5FE65D00862A33 /* Main.storyboard */,
+				143EE2A41C60016800862A33 /* Mis Piscinas */,
+				143EE2A51C60016E00862A33 /* Donde Comprar */,
+				143EE2A61C60017400862A33 /* Analisis */,
+				143EE29C1C5FF65F00862A33 /* Conceptos */,
 				143EE2631C5FE65D00862A33 /* Assets.xcassets */,
 				143EE2651C5FE65D00862A33 /* LaunchScreen.storyboard */,
 				143EE2681C5FE65D00862A33 /* Info.plist */,
@@ -141,6 +170,57 @@
 				143EE27E1C5FE65E00862A33 /* Info.plist */,
 			);
 			path = SpinUITests;
+			sourceTree = "<group>";
+		};
+		143EE29C1C5FF65F00862A33 /* Conceptos */ = {
+			isa = PBXGroup;
+			children = (
+				143EE2961C5FF63B00862A33 /* ConceptosTVC.h */,
+				143EE2971C5FF63B00862A33 /* ConceptosTVC.m */,
+				143EE2991C5FF65900862A33 /* DetailView.h */,
+				143EE29A1C5FF65900862A33 /* DetailView.m */,
+			);
+			name = Conceptos;
+			sourceTree = "<group>";
+		};
+		143EE29D1C5FF66900862A33 /* Menu Lateral */ = {
+			isa = PBXGroup;
+			children = (
+				143EE28A1C5FE9B500862A33 /* SWRevealViewController.h */,
+				143EE28B1C5FE9B500862A33 /* SWRevealViewController.m */,
+				143EE2931C5FF04C00862A33 /* MenuTVC.h */,
+				143EE2941C5FF04C00862A33 /* MenuTVC.m */,
+			);
+			name = "Menu Lateral";
+			sourceTree = "<group>";
+		};
+		143EE2A41C60016800862A33 /* Mis Piscinas */ = {
+			isa = PBXGroup;
+			children = (
+				143EE2901C5FEF2A00862A33 /* MisPiscinasTVC.h */,
+				143EE2911C5FEF2A00862A33 /* MisPiscinasTVC.m */,
+				1403F7341C61F4F5006E3D4F /* MisPiscinasVC.h */,
+				1403F7351C61F4F5006E3D4F /* MisPiscinasVC.m */,
+			);
+			name = "Mis Piscinas";
+			sourceTree = "<group>";
+		};
+		143EE2A51C60016E00862A33 /* Donde Comprar */ = {
+			isa = PBXGroup;
+			children = (
+				143EE2A11C6000C900862A33 /* DondeComprarViewController.h */,
+				143EE2A21C6000C900862A33 /* DondeComprarViewController.m */,
+			);
+			name = "Donde Comprar";
+			sourceTree = "<group>";
+		};
+		143EE2A61C60017400862A33 /* Analisis */ = {
+			isa = PBXGroup;
+			children = (
+				143EE29E1C5FFFE300862A33 /* AnalisisViewController.h */,
+				143EE29F1C5FFFE300862A33 /* AnalisisViewController.m */,
+			);
+			name = Analisis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +355,16 @@
 			files = (
 				143EE25C1C5FE65D00862A33 /* ViewController.m in Sources */,
 				143EE2591C5FE65D00862A33 /* AppDelegate.m in Sources */,
+				143EE29B1C5FF65900862A33 /* DetailView.m in Sources */,
+				143EE28C1C5FE9B500862A33 /* SWRevealViewController.m in Sources */,
+				143EE2921C5FEF2A00862A33 /* MisPiscinasTVC.m in Sources */,
+				143EE2981C5FF63B00862A33 /* ConceptosTVC.m in Sources */,
 				143EE2561C5FE65D00862A33 /* main.m in Sources */,
+				143EE2951C5FF04C00862A33 /* MenuTVC.m in Sources */,
+				143EE2A01C5FFFE300862A33 /* AnalisisViewController.m in Sources */,
 				143EE2621C5FE65D00862A33 /* Spin.xcdatamodeld in Sources */,
+				1403F7361C61F4F5006E3D4F /* MisPiscinasVC.m in Sources */,
+				143EE2A31C6000C900862A33 /* DondeComprarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codemota.Spin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codemota.Spin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +590,7 @@
 				143EE2831C5FE65E00862A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		143EE2841C5FE65E00862A33 /* Build configuration list for PBXNativeTarget "SpinTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +599,7 @@
 				143EE2861C5FE65E00862A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		143EE2871C5FE65E00862A33 /* Build configuration list for PBXNativeTarget "SpinUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +608,7 @@
 				143EE2891C5FE65E00862A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
